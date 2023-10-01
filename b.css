@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://blog.1a23.com/wp-content/uploads/sites/2/2020/02/Desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem; 
+    color: white;
+}
+
+img {
+    width: 30%; 
+    max-width: 200px; 
+    height: auto;
+    margin: 2vh auto;
+    display: block;
+}
+
+form {
+    width: 80%; 
+    max-width: 300px; 
+    margin-top: 2vh;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 1vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+button[type="button"] {
+    background-color: #0088cc;
+    color: #fff;
+    padding: 1vh 2vw;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    img {
+        width: 50%;
+    }
+
+    input[type="text"] {
+        font-size: 1rem;
+        margin-bottom: 1vh; /* Reduced spacing between input fields */
+    }
+
+    form {
+        width: 90%;
+    }
+}
+
+#submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+}

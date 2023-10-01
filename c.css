@@ -1,0 +1,38 @@
+.bg-tg {
+  background: url("../bg-chat.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.rounded-full {
+  border-radius: 100px;
+}
+.title-group {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.lead-des {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.button-app {
+  font-size: 0.7rem;
+  padding: 7px 14px;
+}
+.text-color-gray {
+  color: #6c757d;
+}
+.btn {
+  color: #fff;
+  background: linear-gradient(135deg, #36ade1, #1f95d3);
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  border-color: #36ade1;
+}
+.btn:hover {
+  color: #fff;
+  background: linear-gradient(135deg, #36ade1, #1f95d3);
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  border-color: #36ade1;
+}
